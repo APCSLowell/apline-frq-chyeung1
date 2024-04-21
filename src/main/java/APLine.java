@@ -12,6 +12,7 @@ public class APLine
   return -1.0 * a/b;
   }
 
-  public boolean isOnLine(double x, double y)
+  public boolean isOnLine(double x, double y) {
   return ((a * x) + (b * y) + c == 0);
+  }
 }
